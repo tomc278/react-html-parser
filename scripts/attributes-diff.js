@@ -17,11 +17,4 @@ reactKeys.forEach(key => {
   }
 });
 
-// attributes that have been removed from react
-currentKeys.forEach(key => {
-  if (reactKeys.indexOf(key) === -1) {
-    changes[key] = 'remove';
-  }
-});
-
 console.log(changes); // eslint-disable-line no-console

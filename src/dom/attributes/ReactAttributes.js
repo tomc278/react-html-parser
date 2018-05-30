@@ -132,6 +132,7 @@ export default {
   type: 'type',
   usemap: 'useMap',
   value: 'value',
+  viewbox: 'viewBox',
   width: 'width',
   wmode: 'wmode',
   wrap: 'wrap',
