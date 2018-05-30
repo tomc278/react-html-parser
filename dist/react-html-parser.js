@@ -6917,6 +6917,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  type: 'type',
 	  usemap: 'useMap',
 	  value: 'value',
+	  viewbox: 'viewBox',
 	  width: 'width',
 	  wmode: 'wmode',
 	  wrap: 'wrap',
@@ -7217,7 +7218,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var lowerCaseAttribute = attribute.toLowerCase();
 
 	    // format the attribute name
-	    var name = _ReactAttributes2.default[lowerCaseAttribute] || attribute;
+	    var name = _ReactAttributes2.default[lowerCaseAttribute] || lowerCaseAttribute;
 
 	    // add the parsed attribute value to the mapped attributes
 	    mappedAttributes[name] = getParsedAttributeValue(name, attributes[attribute]);
